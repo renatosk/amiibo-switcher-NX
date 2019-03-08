@@ -116,7 +116,7 @@ int main(int argc, char ** argv)
 										strcpy(fullPath, path);
 										strcpy(fullPath + strlen(path), ent->d_name);
 
-										if (!cp(fullPath, "/amiibo.bin"))
+										if (!cp(fullPath, "/amiibo/amiibo.bin"))
 											printf("\nCopying the file failed!\n");
 
 										else
